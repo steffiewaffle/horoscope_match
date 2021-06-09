@@ -1,0 +1,28 @@
+
+date = int(input(' Enter the day of your birth:'))
+month = input(' Enter your birth month')
+if month == 'December':
+    sign = 'Capricorn' if (date > 22) else 'Sagittarius'
+elif month == 'January':
+    sign = 'Aquarius' if (date > 20) else 'Capricorn'
+elif month == 'February':
+    sign = 'Pisces' if (date > 18) else 'Aquarius'
+elif month == 'March':
+    sign = 'Aries' if (date > 20) else 'Pisces'
+elif month == 'April':
+    sign = 'Taurus' if (date > 20) else 'Aries'
+elif month == 'May':
+    sign = 'Gemini' if (date > 21) else 'Taurus'
+elif month == 'June':
+    sign = 'Cancer' if (date > 21) else 'Gemini'
+elif month == 'July':
+    sign = 'Leo' if (date > 23) else 'Cancer'
+elif month == 'August':
+    sign = 'Virgo' if (date > 23) else 'Leo'
+elif month == 'September':
+    sign = 'Libra' if (date > 23) else 'Virgo'
+elif month == 'October':
+    sign = 'Scorpio' if (date > 23) else 'Libra'
+elif month == 'November':
+    sign = 'Sagittarius' if (date > 22) else 'Scorpio'
+print("Your horoscope sign is:", sign)
